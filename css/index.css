@@ -77,7 +77,6 @@ p {
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    border: 2px solid red;
 }
 
 .logonav img {
@@ -143,6 +142,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
