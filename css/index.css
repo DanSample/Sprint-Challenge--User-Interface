@@ -71,6 +71,39 @@ p {
     margin: 0 auto;
 }
 
+.logonav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    border: 2px solid red;
+}
+
+.logonav img {
+    width: 157px;
+    height: 40px;
+}
+
+.logonav ul {
+    display: flex;
+    font-size: 90%;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.logonav a {
+    color: black;
+    margin: 0px 40px 0px 40px;
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
