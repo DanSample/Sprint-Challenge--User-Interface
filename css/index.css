@@ -184,6 +184,72 @@ p {
     background: dodgerblue;
 }
 
+/* CSS for about page*/
+
+#about {
+    padding: 0px 0px 20px 15px; 
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black; 
+}
+
+#maininfo {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#maininfo h2 {
+    margin-top: 10px;
+}
+.strategy {
+    margin: 30px 0px 30px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black; 
+}
+
+.howwework {
+    margin: 30px 0px 30px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+.places {
+    margin: 30px 0px 30px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+.collab {
+    margin: 30px 0px 30px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid black; 
+}
+
+.worktogether {
+    margin: 10px 0px 30px 25px;
+    width: 800px;
+}
+
+
+/*end CSS for about page*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
