@@ -71,6 +71,38 @@ p {
     margin: 0 auto;
 }
 
+.logonav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.logonav img {
+    width: 157px;
+    height: 40px;
+}
+
+.logonav ul {
+    display: flex;
+    font-size: 90%;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.logonav a {
+    color: black;
+    margin: 0px 40px 0px 40px;
+    text-decoration: none;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +143,112 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+/* CSS for about page*/
+
+#about {
+    padding: 0px 0px 20px 15px; 
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black; 
+}
+
+#maininfo {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#maininfo h2 {
+    margin-top: 10px;
+}
+.strategy {
+    margin: 30px 0px 30px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black; 
+}
+
+.howwework {
+    margin: 30px 0px 30px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+.places {
+    margin: 30px 0px 30px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+.collab {
+    margin: 30px 0px 30px 0px;
+    width: 45%;
+    border-bottom: 1px dashed black;
+}
+
+button {
+    width: 120px;
+    height: 35px;
+    margin: 20px 0 20px 0;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: white;
+    border: 2px solid black; 
+}
+
+.worktogether {
+    margin: 10px 0px 30px 25px;
+    width: 800px;
+}
+
+
+/*end CSS for about page*/
 
 .bottom-content {
     display: flex;
